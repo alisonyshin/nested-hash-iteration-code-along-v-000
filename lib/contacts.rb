@@ -17,8 +17,4 @@ def remove_strawberry(contacts)
     binding.pry
   end
 end
-    # if person == "Freddy Mercury"
-    #   details.each do { |attribute, values|
-    #   if attribute == "favorite_ice_cream_flavors"
-    #     values.
 
