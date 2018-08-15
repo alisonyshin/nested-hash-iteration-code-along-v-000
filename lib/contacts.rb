@@ -11,7 +11,7 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]}
   }
   
-def remove_strawberry(contacts)
+#def remove_strawberry(contacts)
   contacts.each do |person, person_details_hash|
     person_details_hash.each do |attribute, data|
     binding.pry
