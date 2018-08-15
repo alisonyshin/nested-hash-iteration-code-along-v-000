@@ -11,12 +11,14 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]}
   }
   
-#def remove_strawberry(contacts)
+def remove_strawberry(contacts)
   contacts.each do |person, person_details_hash|
     person_details_hash.each do |attribute, data|
-    if attribute == :favorite_ice_cream_flavors
-      binding.pry
+      if attribute == :favorite_ice_cream_flavors
+        data.delete_if {|ice_cream| ice_cream == "strawberry"}
+      end
     end
   end
 end
+
 
