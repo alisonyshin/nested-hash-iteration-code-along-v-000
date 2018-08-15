@@ -19,4 +19,4 @@ end
     #   details.each do { |attribute, values|
     #   if attribute == "favorite_ice_cream_flavors"
     #     values.
-end
+
